@@ -20,4 +20,18 @@
     object-fit: cover;
     border-radius: 14px;
   }
+
+
+/* Features section starts here  */
+        #features{
+    flex-direction: column;
+        }
+        .features1{
+            display: flex;
+            flex-direction: column;
+        }
+        .features1 img{
+            margin: 0;
+        }
+
 }
