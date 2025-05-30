@@ -1,20 +1,84 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: work-sans, sans-serif;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    /* border: 2px solid black; */
-    width: 15%;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 116px;
 }
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+  width: 15%;
+}
+
+/* Banner section starts here */
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.banner1{
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+.banner1 h1 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.banner1 p {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+
+.banner1 button {
+  background-color: rgb(255, 144, 14);
+  color: white;
+  /* font-family: Work Sans; */
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 32px 0;
+}
+
+
+
+
+
+
+
+/* Banner section ends here */
+/* Footer section starts here */
+
+
