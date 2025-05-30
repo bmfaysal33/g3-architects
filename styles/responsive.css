@@ -1,13 +1,23 @@
 
 
+
+
 @media screen and (max-width: 576px) {
-    nav > h1{
-        display: none;
-    }
+  nav > h1 {
+    display: none;
+  }
 
-    nav ul {
-        width: 100%;
-    }
+  nav ul,
+  .banner1 {
+    width: 100%;
+  }
 
-
+  .banner1 button {
+    padding: 10px 15px;
+  }
+  .banner2 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+  }
 }
