@@ -4,4 +4,10 @@
     nav > h1{
         display: none;
     }
+
+    nav ul {
+        width: 100%;
+    }
+
+
 }
