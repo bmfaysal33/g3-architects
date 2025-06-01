@@ -23,6 +23,7 @@
 
 
 /* Features section starts here  */
+
         #features{
     flex-direction: column;
         }
@@ -33,5 +34,31 @@
         .features1 img{
             margin: 0;
         }
+        /* Experience section starts here  */
 
+        #experience{
+          flex-direction: column;
+        }
+
+        .exp1{
+          margin: 0 auto;
+        }
+        .exp2{
+          width: 90%;
+        }
+
+        .facts2{
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+        }
+
+
+          /* Sponsor section */
+
+          .spon2{
+            flex-direction: column;
+          }
+
+
+ 
 }
