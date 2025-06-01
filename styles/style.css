@@ -140,14 +140,10 @@ nav ul li {
   margin: 32px 0;
 }
 
-.features2 > button > a{
+.features2 > button > a {
   text-decoration: none;
   color: white;
 }
-
-
-
-
 
 /* Experience section starts here  */
 
@@ -156,19 +152,19 @@ nav ul li {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
+  width: 87%;
   margin: 130px auto;
   gap: 146px;
+  /* border: 3px solid red; */
 }
 
 .exp1 {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   align-items: flex-start;
   /* border: 3px solid red; */
 }
-
 
 .card1,
 .card2,
@@ -181,8 +177,10 @@ nav ul li {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
   background: rgb(255, 255, 255);
   margin: 20px auto;
+  width: 90%;
   padding: 30px;
   color: rgb(114, 114, 114);
+  
 }
 
 .card1 {
@@ -190,6 +188,17 @@ nav ul li {
   font-size: 45px;
   font-weight: 700;
   border-left: 8px solid rgb(255, 144, 14);
+  margin-bottom: 0;
+}
+
+
+
+
+.exp1 > .card1,
+.exp1 > p{
+  box-shadow: none;
+  background: transparent;
+  /* margin-top: ; */
 }
 
 
@@ -197,27 +206,79 @@ nav ul li {
 .card3 > h3,
 .card4 > h3,
 .card5 > h3 {
-        margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
+/* Fact section starts here */
 
-
-/* Footer section starts here */
-
-#facts{
+#facts {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-  border: 2px solid;
+  align-items: flex-start;
+  text-align: left;
+  /* border: 2px solid; */
+  width: 75%;
   margin: 50px auto;
 }
 
+.facts1 {
+  margin-bottom: 100px;
+  /* border: 2px solid tomato; */
+}
 
 
+.facts1{
+  color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+}
+
+.facts1 p{
+  color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+}
 
 
+.facts2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid rgb(255, 144, 14); */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.facts2 > .fact-card1,
+.facts2 > .fact-card2,
+.facts2 > .fact-card3,
+.facts2 > .fact-card4 {
+  border: 2px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 40px;
+  width: 241.83px;
+  height: 241.83px;
+}
+
+.facts2 > .fact-card1 > h2,
+.facts2 > .fact-card2 > h2,
+.facts2 > .fact-card3 > h2,
+.facts2 > .fact-card4 > h2 {
+  margin: 10px auto;
+}
+
+.facts2 > .fact-card1 > h4,
+.facts2 > .fact-card2 > h4,
+.facts2 > .fact-card3 > h4,
+.facts2 > .fact-card4 > h4 {
+  color: rgb(114, 114, 114);
+  font-size: 20px;
+  font-weight: 600;
+}
 
 
 
