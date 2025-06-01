@@ -319,10 +319,22 @@ margin-top: 24px;
 
 
 
+/* Footer section  */
 
 
+footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+background: rgb(255, 244, 231);
+width: 80%;
+margin: 100px auto;
+height: 100px;
 
-
+}
 
 
 
