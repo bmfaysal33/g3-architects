@@ -98,6 +98,11 @@ nav ul li {
   width: 80%;
 }
 
+.features1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .features1 img {
   margin: 20px;
 }
@@ -181,6 +186,9 @@ nav ul li {
   padding: 30px;
   color: rgb(114, 114, 114);
 }
+
+
+
 
 .card1 {
   color: rgb(19, 19, 19);
