@@ -1,7 +1,3 @@
-
-
-
-
 @media screen and (max-width: 576px) {
   nav > h1 {
     display: none;
@@ -24,73 +20,66 @@
   .banner1 > h1 {
     font-size: 2.3rem;
   }
-  .banner1 > p{
+  .banner1 > p {
     font-size: 1rem;
   }
 
-/* Features section starts here  */
+  /* Features section starts here  */
 
-        #features{
+  #features {
     flex-direction: column;
     gap: 40px;
-        }
-        .features1{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-          }
+  }
+  .features1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .features1 img {
+    margin: 0;
+  }
 
-          .features1 img{
-            margin: 0;
-          }
+  .features2 {
+    width: 100%;
+  }
 
+  .card1 {
+    padding: 14px;
+  }
 
-        .features2{
-                    width: 100%;
+  br {
+    display: none;
+  }
 
-        }     
+  /* Experience section starts here  */
 
-          .card1{
-            padding: 14px;
-          }
+  #experience {
+    flex-direction: column;
+  }
 
+  #exp-years {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-          br{
-            display: none;
-          }
+  .exp1 {
+    margin: 0 auto;
+  }
 
+  .exp2 {
+    width: 90%;
+  }
 
-        /* Experience section starts here  */
+  .facts2 {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    justify-items: center;
+  }
 
-        #experience{
-          flex-direction: column;
-        }
+  /* Sponsor section */
 
-
-        .exp1{
-          margin: 0 auto;
-        }
-
-
-        .exp2{
-          width: 90%;
-        }
-
-
-        .facts2{
-          grid-template-columns: 1fr;
-          gap: 1.2rem;
-          justify-items: center;
-        }
-
-
-          /* Sponsor section */
-
-          .spon2{
-            flex-direction: column;
-          }
-
-
- 
+  .spon2 {
+    flex-direction: column;
+  }
 }
