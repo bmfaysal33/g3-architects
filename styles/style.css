@@ -90,12 +90,12 @@ nav ul li {
 #features {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   margin: 20px auto;
   padding: 30px;
-  width: 85%;
+  width: 90%;
 }
 
 .features1 {
@@ -103,12 +103,14 @@ nav ul li {
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   width: 45%;
- 
+  border: 2px solid salmon;
 }
 
 .features1 img {
-  margin: 20px;
+  padding: 10px;
+  width: 100%;
 }
+
 .features2 {
   text-align: left;
   width: 45%;
@@ -116,20 +118,24 @@ nav ul li {
 
 #span1 {
   color: rgb(114, 114, 114);
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 500;
 }
 
 #span2 {
   color: rgb(19, 19, 19);
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 700;
 }
 
 #span3 {
   color: rgb(255, 144, 14);
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 700;
+}
+
+.features2 h3 {
+  font-size: 2.5rem;
 }
 
 .features2 p {
@@ -191,16 +197,12 @@ nav ul li {
   color: rgb(114, 114, 114);
 }
 
-
-
-
 .card1 {
   color: rgb(19, 19, 19);
   font-size: 45px;
   font-weight: 700;
   border-left: 8px solid rgb(255, 144, 14);
   margin-bottom: 0;
-
 }
 
 .exp1 > .card1,
@@ -210,7 +212,7 @@ nav ul li {
   /* margin-top: ; */
 }
 
-.exp2-img > img{
+.exp2-img > img {
   object-fit: cover;
   width: 100%;
 }
@@ -221,10 +223,6 @@ nav ul li {
 .card5 > h3 {
   margin-bottom: 10px;
 }
-
-
-
-
 
 /* Fact section starts here */
 
@@ -239,18 +237,10 @@ nav ul li {
   margin: 50px auto;
 }
 
-
-
-
-
 .facts1 {
   margin-bottom: 100px;
   /* border: 2px solid tomato; */
 }
-
-
-
-
 
 .facts1 {
   color: rgb(19, 19, 19);
@@ -258,21 +248,12 @@ nav ul li {
   font-weight: 700;
 }
 
-
-
-
-
 .facts1 p {
   color: rgb(114, 114, 114);
   font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
 }
-
-
-
-
-
 
 .facts2 {
   display: grid;
@@ -284,12 +265,6 @@ nav ul li {
   width: 100%;
   margin: 0 auto;
 }
-
-
-
-
-
-
 
 .facts2 > .fact-card1,
 .facts2 > .fact-card2,
@@ -303,20 +278,12 @@ nav ul li {
   height: 241.83px;
 }
 
-
-
-
-
 .facts2 > .fact-card1 > h2,
 .facts2 > .fact-card2 > h2,
 .facts2 > .fact-card3 > h2,
 .facts2 > .fact-card4 > h2 {
   margin: 10px auto;
 }
-
-
-
-
 
 .facts2 > .fact-card1 > h4,
 .facts2 > .fact-card2 > h4,
@@ -343,19 +310,17 @@ nav ul li {
   text-align: center;
 }
 
-
 .spon1 > h2 {
   color: rgb(19, 19, 19);
-font-size: 45px;
-font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
 }
 
-
-.spon1 > p{
+.spon1 > p {
   color: rgb(114, 114, 114);
-font-size: 16px;
-font-weight: 400;
-margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
 }
 
 .spon2 {
@@ -364,35 +329,23 @@ margin-top: 24px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .spon2 > img {
-      margin: 50px 75px;
+  margin: 50px 75px;
 }
-
-
 
 /* Footer section  */
 
-
-footer{
+footer {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-background: rgb(255, 244, 231);
-width: 80%;
-margin: 100px auto;
-height: 100px;
-
+  background: rgb(255, 244, 231);
+  width: 80%;
+  margin: 100px auto;
+  height: 100px;
 }
-
-
-
-
-
-
-
