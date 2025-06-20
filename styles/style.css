@@ -103,7 +103,6 @@ nav ul li {
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   width: 45%;
-  border: 2px solid salmon;
 }
 
 .features1 img {
